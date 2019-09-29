@@ -82,11 +82,11 @@ footer,
   clear: both;
 }
 
-h1,h2,h3,p {
+h1,h2,h3,p,a {
   margin-bottom: 20px;
 }
 
-h1,h2,h3 {
+h1,h2,h3,a {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -99,7 +99,7 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
-h2,h3 {
+h2,h3,a {
   font-size: 22px;
 }
 
