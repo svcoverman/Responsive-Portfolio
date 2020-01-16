@@ -35,12 +35,14 @@ margin: 0;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #1c7e7b;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 20px;
+  margin-right: 5px;
 }
 
 nav a {
@@ -76,6 +78,7 @@ footer,
 /* general styling */
 
 .container {
+
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -89,7 +92,7 @@ h1,h2,h3,p,a {
 h1,h2,h3,a {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #1c7e7b;
 }
 
 h1 {
@@ -115,6 +118,7 @@ h2,h3,a {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+  margin-right: 5px;
 }
 
 h3,
@@ -139,7 +143,7 @@ h3,
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 200px;
 }
 
 .main-section {
@@ -187,10 +191,21 @@ input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;
-  background: #4aaaa5;
+  background: #1c7e7b;
   border: 0 none;
 }
 
+.work {
+}
+
+.description{
+  float: right;
+}
+
+img {
+  width: 1in;
+  height: 1in;
+}
 /* footer */
 
 footer {
@@ -201,5 +216,6 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #1c7e7b;
 }
+
